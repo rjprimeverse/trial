@@ -121,12 +121,19 @@ http://localhost:5001/live/173.m3u8
 #EXTINF:-1 tvg-id=231 tvg-name="News 18 India" tvg-logo="http://localhost:5001/jtvimage/IBN_7.png" tvg-language="Hindi" tvg-type="News" group-title="News", News 18 India
 http://localhost:5001/live/231.m3u8
 
-#EXTINF:-1 tvg-id=185 tvg-name="And Pictures HD" tvg-logo="http://localhost:5001/jtvimage/And_Pictures_HD.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", And Pictures HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.drmlive-02.workers.dev/zee/and-pictures-hd.m3u8
+#EXTINF:-1 tvg-id="ts267" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/&pictures HD.png" group-title="Movies",&pictures HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=267
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.181:8000/tataplay-main/manifest.mpd?id=267|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
-#EXTINF:-1 tvg-id=1839 tvg-name="And Pictures" tvg-logo="http://localhost:5001/jtvimage/And_Pictures.png" tvg-language="Hindi" tvg-type="Movies" group-title="Movies", And Pictures
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures1/default/andpictures1.m3u8
+#EXTINF:-1 tvg-id="ts148" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/&pictures.png" group-title="Movies",&pictures
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=148
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+http://192.168.1.181:8000/tataplay-main/manifest.mpd?id=148|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
   
 #EXTINF:-1 tvg-id="ts503" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/Zee Cinema HD.png" group-title="Movies",Zee Cinema HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
